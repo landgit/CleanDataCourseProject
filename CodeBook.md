@@ -23,7 +23,7 @@ f: a Fast Fourier Transform (FFT) was applied to some of these signals
 -std-: Standard deviation
 These values are “average” values, please read the cleaning procedure for further detail.
 
-*fBodyAccJerk-mean-X
+* fBodyAccJerk-mean-X
 *fBodyAccJerk-mean-Y
 *fBodyAccJerk-mean-Z
 *fBodyAccJerk-std-X
