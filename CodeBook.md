@@ -118,4 +118,4 @@ You can see there are 5 blocks in my code, which are isolated by the '#'.
 2. Combine different variable from different txt file into one data frame.
 3. Combine the training set and the testing set data. And take only the variable names with std() and mean().
 4. Calculate the average measurement value of each subject's each activity.
-5.reshape the final data set, and write as the tidy.txt.
+5. reshape the final data set, and write as the tidy.txt.
