@@ -20,7 +20,9 @@ t: the body linear acceleration and angular velocity were derived in time to obt
 f: a Fast Fourier Transform (FFT) was applied to some of these signals
 
 -mean-:the mean value
+
 -std-: Standard deviation
+
 These values are “average” values, please read the cleaning procedure for further detail.
 
 * fBodyAccJerk-mean-X
