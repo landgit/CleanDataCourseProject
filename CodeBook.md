@@ -2,19 +2,28 @@ CodeBook
 =======
 
 
-###Subject:
+Subject:
+
 str: integer
+
 The ID of subject
+
 from 1 to 30
 
-###Activity:
+
+Activity:
+
 str: character
+
 The action a subject perform.
+
 There are 6 activities: LAYING, SITTING, STANDING, WALKING, WALK_DOWNSTAIRS, WALKING_UPSTAIRS.
 
 
-###Measurement Variables:
+Measurement Variables:
+
 str: numeric
+
 The letter “t” or “f” in front of the variable means:
 
 t - the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
