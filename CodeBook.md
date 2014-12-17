@@ -110,3 +110,12 @@ These values are “average” values, please read the cleaning procedure for fu
 2. Merges the training and the test sets to create one data set. 
 3. Extracts only the measurements on the mean(-mean) and standard(-std) deviation for each measurement. 
 4. Create a data set with the average of each variable for each activity and each subject. 
+
+
+###The code: 
+You can see there are 5 blocks in my code, which are isolated by the '#'.
+1. Load data in memory
+2. Combine different variable from different txt file into one data frame.
+3. Combine the training set and the testing set data. And take only the variable names with std() and mean().
+4. Calculate the average measurement value of each subject's each activity.
+5.reshape the final data set, and write as the tidy.txt.
