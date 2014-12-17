@@ -1,19 +1,19 @@
 CodeBook
+=======
 
 
-
-Subject:
+###Subject:
 str: integer
 The ID of subject
 from 1 to 30
 
-Activity:
+###Activity:
 str: character
 The action a subject perform
 There are 6 activities: LAYING, SITTING, STANDING, WALKING, WALK_DOWNSTAIRS, WALKING_UPSTAIRS.
 
 
-Measurement Variables:
+###Measurement Variables:
 str: numeric
 The letter “t” or “f” in front of the variable means:
 t: the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
@@ -92,11 +92,7 @@ tGravityAcc-std-Z
 
 
 
-
-
-
-
-Cleaning procedures:
+###Cleaning procedures:
 1. Put subject ID, activities and measurement value in the same data frame.
 2. Merges the training and the test sets to create one data set. 
 3. Extracts only the measurements on the mean(-mean) and standard(-std) deviation for each measurement. 
