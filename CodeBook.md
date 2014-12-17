@@ -114,7 +114,8 @@ These values are “average” values, please read the cleaning procedure for fu
 
 ###The code: 
 You can see there are 5 blocks in my code, which are isolated by the '#'.
-1. Load data in memory
+
+1. Load data in memory.
 2. Combine different variable from different txt file into one data frame.
 3. Combine the training set and the testing set data. And take only the variable names with std() and mean().
 4. Calculate the average measurement value of each subject's each activity.
