@@ -9,6 +9,8 @@ actName <- read.table("UCIHARDataset/activity_labels.txt", sep = "", col.name = 
 variable <- read.table("UCIHARDataset/features.txt", sep = "")
 # read data
 
+
+########################
 colnames(trainSet) <- variable$V2
 colnames(testSet) <- variable$V2
 #column names
@@ -38,6 +40,9 @@ for (i in testMain[,563]){
 colnames(trainMain)[564] <- "activityName"
 colnames(testMain)[564] <- "activityName"
 #names columns
+##############################
+
+
 
 complete <- rbind2(trainMain, testMain)
 #merge triaining and testing data
@@ -45,6 +50,8 @@ complete <- rbind2(trainMain, testMain)
 
 meanStd <-complete[ ,grep("mean[()]|std[()]|Subject|activityName",colnames(complete))]
 #subset the mean and standard deviation
+
+##############################
 
 
 empty <- data.frame()
@@ -74,6 +81,9 @@ for (i in 1:30) {
     
 }
 #compute the average of each subject, each activity and each measurement variable
+################################
+
+
 
 colnames(empty)[1:4] <- c("Subject", "Activity", "MeasurementVariable", "averageValue")
 
